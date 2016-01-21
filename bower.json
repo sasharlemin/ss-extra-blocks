@@ -1,0 +1,29 @@
+{
+  "name": "ss-extra-blocks",
+  "version": "0.0.1",
+  "main": [
+        "src/analytics/analytics.module.js",
+        "src/analytics/analytics.js",
+        "src/exception/exception.module.js",
+        "src/exception/exception.js",
+        "src/exception/exception-handler.provider.js"
+
+  ],
+  "homepage": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+  },
+  "dependencies": {
+    "angular": "~1.4",
+    "angulartics": "~1.0.3",
+    "angulartics-google-analytics": "~0.1.4"
+
+  }
+}
