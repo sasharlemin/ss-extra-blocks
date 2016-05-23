@@ -35,6 +35,9 @@
                 thrownDescription = '\n' + e.data.description;
                 newMessage = message + thrownDescription;
             }
+            if (!e.data) {
+                e.data = {};
+            }
             e.data.description = newMessage;
 
         }

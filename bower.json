@@ -1,6 +1,6 @@
 {
   "name": "ss-extra-blocks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": [
         "src/analytics/analytics.module.js",
         "src/analytics/analytics.js",
@@ -21,7 +21,7 @@
   "devDependencies": {
   },
   "dependencies": {
-    "angular": "~1.4",
+    "angular": "~1.5",
     "angulartics": "~1.0.3",
     "angulartics-google-analytics": "~0.1.4"
 
